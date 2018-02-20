@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    border: 1px solid black;
+    width: 1166px;
+    margin: auto;
+    background-color: rgb(220, 218, 224);
+}
+
+@media screen and (max-width:1165px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+#logo_container {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+#logo_container img {
+    width: 200px;
+    transform: rotate(-45deg);
+    float: left;
+}
+
+#logo_container h3 {
+    float: right;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header>nav>ul {
+    border-top: 1px solid rgb(49, 24, 141);
+}
+
+header>nav>ul>li {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding: 5px 0;
+    border-right: 1px solid rgb(32, 18, 83);
+    box-sizing: border-box;
+    margin-left: -4px;
+}
+
+header>nav>ul>li:last-of-type {
+    border-right: none;
+}
+
+header>nav>ul>li:hover {
+    background-color: rgb(124, 151, 192);
+}
+
+header>nav>ul>li a:hover {
+    text-shadow: 2px 3px 3px rgb(40, 55, 168);
+}
+
+header>nav>ul {
+    border-bottom: 1px solid rgb(32, 26, 82);
+}
+
+header>nav>ul>li a {
+    text-decoration: none;
+}
+
+#carousel>img {
+    width: 100%;
+}
+
+main>.news_section {
+    display: inline-block;
+    width: 100%;
+}
+
+main>.news_section>article>img {
+    max-width: 100px;
+}
+
+main>.news_section>article {
+    border: 1px solid rgb(36, 12, 92);
+    width: 45%;
+    float: left;
+    margin: 1em;
+    min-height: 200px;
+    padding: 8px;
+    max-height: 200px;
+    height: 200px;
+    overflow: auto;
+    color: rgb(12, 44, 59);
+    border-radius: 10px;
+}
+
+main>.news_section>article:nth-child(even) {
+    background: url("https://static3.comicvine.com/uploads/original/11119/111190794/5498857-0088680441-49641.jpg");
+    background-size: cover;
+    color: wheat;
+}
+
+main>.news_section>article:nth-child(odd) {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS8F2ytWjtUZfKPtDshkBql_yXl6-7xfVZYZBCEE4Or4bZK5oq");
+    background-size: cover;
+    color: wheat;
+}
+
+main>.news_section h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+}
+
+main>.news_section p {
+    margin-top: 1em;
+    color: white;
+}
+
+div.separator {
+    border: 1px solid rgb(21, 31, 85);
+    width: 70%;
+    margin: auto;
+    margin-top: 1em;
+}
+
+footer {
+    border-top: 3px solid rgb(10, 2, 31);
+}
+
+footer>article {
+    float: left;
+    width: 32.16%;
+    border-right: 1px ridge rgb(11, 31, 75);
+    margin: 0.4%;
+    min-height: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 1em;
+}
+
+footer li {
+    margin: 1em 0;
+}
+
+footer>article:last-of-type {
+    border: none;
+}
