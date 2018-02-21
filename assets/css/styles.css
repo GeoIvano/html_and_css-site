@@ -9,9 +9,17 @@ body {
     background-color: rgb(220, 218, 224);
 }
 
-@media screen and (max-width:1165px) {
+@media screen and (max-width:1166px) {
     .wrapper {
         width: 100%;
+    }
+    main article {
+        max-width: 37%;
+        display: inline-block;
+        font-size: 60%;
+    }
+    #logo_container {
+        font-size: 60%;
     }
 }
 
@@ -23,14 +31,14 @@ body {
 }
 
 #logo_container img {
-    width: 200px;
+    width: 10em;
     transform: rotate(-45deg);
     float: left;
 }
 
 #logo_container h3 {
     float: right;
-    font-size: 0.8em;
+    font-size: 1.8em;
     font-weight: bold;
 }
 
