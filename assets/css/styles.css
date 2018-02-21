@@ -30,7 +30,7 @@ body {
 
 #logo_container h3 {
     float: right;
-    font-size: 2em;
+    font-size: 0.8em;
     font-weight: bold;
 }
 
@@ -108,10 +108,9 @@ main>.news_section>article:nth-child(odd) {
 }
 
 main>.news_section h3 {
-    font-size: 2em;
+    font-size: 1.6em;
     text-transform: uppercase;
     text-align: center;
-    width: 350px;
     margin: auto;
     /* white-space: nowrap; */
     /* overflow: hidden; */
